@@ -1,0 +1,64 @@
+:root {
+
+  /* COLORES PRINCIPALES*/
+
+  --color-primary: #3E2723;        /* Café Profundo */
+  --color-secondary: #6F4E37;      /* Marrón Medio */
+  --color-accent: #D4A373;         /* Beige Dorado */
+  --color-background: #F5EFE6;     /* Crema Latte */
+  --color-olive: #5F6F52;          /* Verde Oliva */
+
+  /* COLORES DE TEXTO */
+
+  --text-dark: #3E2723;
+  --text-medium: #6F4E37;
+  --text-light: #F5EFE6;
+  --text-muted: #8A7A70;
+
+  /* BORDES */
+
+  --border-light: #E5DED6;
+  --border-accent: rgba(212,163,115,0.4);
+
+  /* ESPACIADO */
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-xxl: 80px;
+
+  /* BORDER RADIUS */
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 30px;
+  --radius-pill: 50px;
+
+  /* SOMBRAS*/
+
+  --shadow-soft: 0px 8px 25px rgba(0,0,0,0.08);
+  --shadow-medium: 0px 10px 35px rgba(0,0,0,0.12);
+  --shadow-strong: 0px 20px 50px rgba(0,0,0,0.18);
+
+  /*  TRANSICIONES */
+
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background:var(--color-background);
+  color:var(--color-primary);
+}
