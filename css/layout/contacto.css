@@ -1,0 +1,99 @@
+.contacto {
+    padding: var(--space-xxl) var(--space-xl);
+    background: var(--color-background);
+}
+
+.contacto-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--color-primary);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xxl) var(--space-xl);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+}
+
+.contacto-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--text-light);
+    margin-bottom: var(--space-md);
+}
+
+.contacto-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95em;
+    color: var(--color-accent);
+    margin-bottom: var(--space-xl);
+}
+
+.contacto-datos {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-xl);
+}
+
+.contacto-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-md);
+}
+
+.contacto-icono {
+    color: var(--color-accent);
+    font-size: 1.3em;
+    margin-top: 4px;
+}
+
+.contacto-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--text-light);
+    margin-bottom: var(--space-xs);
+}
+
+.contacto-texto {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85em;
+    color: var(--color-accent);
+    line-height: 1.5;
+}
+
+.contacto-btn {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: var(--color-accent);
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: var(--radius-pill);
+    text-decoration: none;
+}
+
+.contacto-visual {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.contacto-foto {
+    width: 100%;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+}
+
+.contacto-mapa {
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: var(--radius-md);
+}
