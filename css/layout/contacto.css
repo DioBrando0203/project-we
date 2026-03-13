@@ -1,3 +1,4 @@
+/* inicio contacto */
 .contacto {
     padding: var(--space-xxl) var(--space-xl);
     background: var(--color-background);
@@ -30,6 +31,7 @@
     margin-bottom: var(--space-xl);
 }
 
+/* inicio datos de contacto */
 .contacto-datos {
     background: rgba(255, 255, 255, 0.08);
     border-radius: var(--radius-md);
@@ -66,7 +68,9 @@
     color: var(--color-accent);
     line-height: 1.5;
 }
+/* fin datos de contacto */
 
+/* inicio boton */
 .contacto-btn {
     display: inline-block;
     font-family: 'Inter', sans-serif;
@@ -78,7 +82,9 @@
     border-radius: var(--radius-pill);
     text-decoration: none;
 }
+/* fin boton */
 
+/* inicio imagen y mapa */
 .contacto-visual {
     display: flex;
     flex-direction: column;
@@ -97,3 +103,22 @@
     border: none;
     border-radius: var(--radius-md);
 }
+/* fin imagen y mapa */
+/* fin contacto */
+
+/* inicio responsive */
+@media screen and (max-width: 768px) {
+    .contacto {
+        padding: var(--space-xl) 20px;
+    }
+
+    .contacto-contenido {
+        grid-template-columns: 1fr;
+        padding: var(--space-xl) 20px;
+    }
+
+    .contacto-title {
+        font-size: 1.8em;
+    }
+}
+/* fin responsive */

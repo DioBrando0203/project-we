@@ -13,10 +13,8 @@
 }
 
 .productos-title {
-    font-family: 'Cormorant', serif;
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--color-primary);
+    font-size: 56px;
+    color: var(--text-dark);
     margin-bottom: var(--space-sm);
 }
 

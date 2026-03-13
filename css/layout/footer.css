@@ -1,3 +1,4 @@
+/* inicio footer */
 .footer {
     background: var(--color-primary);
     padding: var(--space-xxl) var(--space-xl);
@@ -27,6 +28,7 @@
     margin-bottom: var(--space-lg);
 }
 
+/* inicio redes sociales */
 .footer-redes {
     display: flex;
     gap: var(--space-md);
@@ -37,7 +39,9 @@
     font-size: 1.2em;
     text-decoration: none;
 }
+/* fin redes sociales */
 
+/* inicio enlaces rapidos */
 .footer-link {
     display: block;
     font-family: 'Inter', sans-serif;
@@ -47,7 +51,9 @@
     letter-spacing: 1px;
     margin-bottom: var(--space-sm);
 }
+/* fin enlaces rapidos */
 
+/* inicio contactanos */
 .footer-contacto {
     font-family: 'Inter', sans-serif;
     font-size: 0.85em;
@@ -63,7 +69,9 @@
     width: 16px;
     text-align: center;
 }
+/* fin contactanos */
 
+/* inicio recibe novedades */
 .footer-input {
     width: 100%;
     padding: var(--space-sm) var(--space-md);
@@ -93,3 +101,26 @@
     border-radius: var(--radius-pill);
     cursor: pointer;
 }
+/* fin recibe novedades */
+/* fin footer */
+
+/* inicio responsive */
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: var(--space-xl) 20px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-redes {
+        justify-content: center;
+    }
+
+    .footer-contacto {
+        justify-content: center;
+    }
+}
+/* fin responsive */
