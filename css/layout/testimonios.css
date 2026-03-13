@@ -1,3 +1,4 @@
+/* inicio testimonios */
 .testimonios {
     padding: var(--space-xxl) var(--space-xl);
     text-align: center;
@@ -15,8 +16,8 @@
 .testimonios-subtitle {
     font-family: 'Inter', sans-serif;
     font-size: 1em;
-    color: var(--color-accent);
-    font-weight: 700;
+    color: var(--text-medium);
+    font-weight: 600;
     margin-bottom: var(--space-xxl);
 }
 
@@ -28,6 +29,7 @@
     margin: 0 auto;
 }
 
+/* inicio card testimonio */
 .testi-card {
     background: #fff;
     border-radius: var(--radius-lg);
@@ -73,3 +75,22 @@
     font-weight: 700;
     color: var(--text-dark);
 }
+/* fin card testimonio */
+/* fin testimonios */
+
+/* inicio responsive */
+@media screen and (max-width: 768px) {
+    .testimonios {
+        padding: var(--space-xl) 20px;
+    }
+
+    .testimonios-title {
+        font-size: 1.8em;
+    }
+
+    .testimonios-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+}
+/* fin responsive */
