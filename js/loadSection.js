@@ -42,6 +42,7 @@ loadSection("navbar", "/sections/navbar.html", function() {
 });
 
 loadSection("hero", "/sections/hero.html");
+loadSection("informativo", "/sections/informativo.html")
 loadSection("historia", "/sections/historia.html");
 loadSection("eleccion", "/sections/eleccion.html");
 loadSection("categoria", "/sections/categoria.html");
