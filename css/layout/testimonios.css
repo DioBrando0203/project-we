@@ -79,7 +79,7 @@
 /* fin testimonios */
 
 /* inicio responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .testimonios {
         padding: var(--space-xl) 20px;
     }
