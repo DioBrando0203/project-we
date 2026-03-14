@@ -7,7 +7,7 @@ function loadSection(id, file, callback) {
         });
 }
 
-loadSection("navbar", "/sections/navbar.html", function() {
+loadSection("navbar", "/sections/navbar.html", function () {
     var header = document.getElementById('header');
     var headroom = new Headroom(header);
     headroom.init();
@@ -22,13 +22,13 @@ loadSection("navbar", "/sections/navbar.html", function() {
         icono.addClass('fa-bars');
     }
 
-    btnMenu.on('click', function(e) {
+    btnMenu.on('click', function (e) {
         enlaces.slideToggle();
         icono.toggleClass('fa-bars');
         icono.toggleClass('fa-times');
     });
 
-    $(window).on('resize', function() {
+    $(window).on('resize', function () {
         if ($(this).width() > 1023) {
             enlaces.show();
             icono.addClass('fa-times');
@@ -50,3 +50,22 @@ loadSection("productos", "/sections/productos.html");
 loadSection("testimonios", "/sections/testimonios.html");
 loadSection("contacto", "/sections/contacto.html");
 loadSection("footer", "/sections/footer.html");
+
+
+function revealOnScroll() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("active");
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+
+    document.querySelectorAll(".reveal").forEach(el => {
+        observer.observe(el);
+    });
+}
+
+window.addEventListener("scroll", revealOnScroll);
