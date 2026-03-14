@@ -6,7 +6,7 @@
 
 .productos-brand {
     font-family: 'Inter', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.75em;
     letter-spacing: 0.3em;
     color: var(--color-olive);
     margin-bottom: var(--space-md);
@@ -20,7 +20,7 @@
 
 .productos-subtitle {
     font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
     color: var(--text-medium);
     font-weight: 600;
     margin-bottom: var(--space-xl);
@@ -62,7 +62,7 @@
 
 .card-name {
     font-family: 'Playfair Display', serif;
-    font-size: 0.95rem;
+    font-size: 0.95em;
     font-weight: 700;
     font-style: italic;
     color: var(--color-secondary);
@@ -71,7 +71,7 @@
 
 .card-price {
     font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.9em;
     font-weight: 700;
     color: var(--color-secondary);
     margin-bottom: 6px;
@@ -79,7 +79,7 @@
 
 .card-desc {
     font-family: 'Inter', sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.78em;
     color: var(--color-olive);
     line-height: 1.4;
 }
@@ -92,6 +92,6 @@
     }
 
     .productos-title {
-        font-size: 1.8rem;
+        font-size: 1.8em;
     }
 }
