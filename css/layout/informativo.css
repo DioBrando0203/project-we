@@ -1,0 +1,84 @@
+.ritual{
+    padding: var(--space-xxl) 10%;
+}
+
+.ritual-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:80px;
+}
+
+/* TEXTO */
+
+.ritual-subtitle{
+    letter-spacing:8px;
+    font-size:14px;
+    color:var(--color-olive);
+    display:block;
+    margin-bottom:20px;
+}
+
+.ritual-text h2{
+    font-size:64px;
+    line-height:1.1;
+    color:#000;
+    margin-bottom:var(--space-lg);
+}
+
+.ritual-text h2 span{
+    color:var(--color-secondary);
+}
+
+.ritual-text p{
+    font-size:18px;
+    color:var(--text-medium);
+    max-width:520px;
+    line-height:1.7;
+}
+
+/* IMAGEN */
+
+.ritual-img img{
+    width:420px;
+    border-radius:var(--radius-xl);
+    box-shadow:var(--shadow-medium);
+}
+
+/* TABLET */
+
+@media (max-width:1024px){
+
+.ritual-text h2{
+    font-size:48px;
+}
+
+.ritual-img img{
+    width:360px;
+}
+
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+.ritual-container{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+}
+
+.ritual-text h2{
+    font-size:36px;
+}
+
+.ritual-text p{
+    max-width:100%;
+}
+
+.ritual-img img{
+    width:100%;
+}
+
+}
